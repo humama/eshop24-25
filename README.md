@@ -13,6 +13,7 @@ Clean Code Principles yang sudah ada di dalam kode:
    di dalam kode tidak ada comment yang tidak penting
 
 untuk Secure Coding practices yang sudah ada adalah Input Data Validation
+
 **Reflection 2**
 untuk bagian functional-test nya di coba masih error
 </detail>
