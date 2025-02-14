@@ -38,6 +38,11 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
+    public Product edit(Product product) {
+        return productRepository.edit(product);
+    }
+      
+    @Override
     public void delete(Product product) {
         productRepository.delete(product);
     }
