@@ -7,10 +7,10 @@ plugins {
 group = "id.ac.ui.cs.advprog"
 version = "0.0.1-SNAPSHOT"
 
-val seleniumJavaVersion = "4.14.1"
-val seleniumJupiterVersion = "5.0.1"
-val webdrivermanagerVersion = "5.6.3"
-val junitJupiterVersion = "5.9.1"
+val seleniumJavaVersion = "4.28.0"
+val seleniumJupiterVersion = "5.1.1"
+val webdrivermanagerVersion = "5.9.2"
+val junitJupiterVersion = "5.11.4"
 
 java {
 	toolchain {
@@ -62,6 +62,6 @@ tasks.register<Test>("functionalTest") {
 	}
 }
 
-tasks.withType<Test>.configureEach {
+tasks.withType<Test>().configureEach {
 	useJUnitPlatform()
 }
