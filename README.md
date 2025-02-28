@@ -23,4 +23,16 @@ untuk bagian functional-test nya di coba masih error
 1. I don't fixed it
   
 2. No, because it is still error
-</deail>
+</detail>
+
+**Reflection 3**
+
+
+</detail>
+
+<detail>
+  <summary>Tutorial Modul 3</summary>
+
+1. Single Responsibility Principle pada project ini saya terapkan pada setiap method pada setiap class implementasi Repository, Service, dan Controller. contohnya di bagian CarController saya buat file baru bernama CarController.java agar bagian Car Controller hanya memiliki sebuah responsibility, yaitu bagian Controller untuk Car.
+
+</detail>
